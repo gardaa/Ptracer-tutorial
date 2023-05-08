@@ -5,7 +5,7 @@ We can now create a Python file where we will write our first script
 touch PtracerTutorial.py
 ```{{exec}}
 
-This is our first python script, we use ptracer and traceback to trace calls made by the **'open'** function and print the arguments and result of each call. **traceback** module provides a way to print the call stack for debugging purposes. \
+This is our first python script, we use ptracer and traceback to trace calls made by the **'open'** function and print the arguments and result of each call. **traceback** module provides a way to print the call stack for debugging purposes.
 
 
 ```
