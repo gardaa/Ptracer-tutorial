@@ -5,10 +5,11 @@
         "intro": {
             "text": "intro.md"
         },
-        "intro": {
-            "text": "PtracerArchitecture.md"
-        },
         "steps": [
+            {
+                "title": "Ptracer Architecture",
+                "text": "PtracerArchitecture.md"
+            },
             {
                 "title": "Prerequisites",
                 "text": "step1.md"
