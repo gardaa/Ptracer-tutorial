@@ -9,9 +9,7 @@ Some basic Python knowledge is recommended to easier understand and follow the t
 2. Ptracer installation
 3. Simple example
 4. More advanced example (Filtering)
-5. Step 5
-6. Step 6
-7. Completion page
+5. Conclusion
 
 ## Motivation
 Monitoring is an important part of DevOps, as it ensures good performance and reliability. This is achieved by tracing a code base and its flows, identifying potential bugs and failures to avoid a negative impact on performance and other factors at an early stage.
