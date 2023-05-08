@@ -11,7 +11,7 @@ Here there are step-by-step instructions on how to install Conda, create an envi
 
 ### 1. Update Ubuntu
 
-Before installing Conda, it's a good practice to update your Ubuntu system packages:
+Before installing Conda, it's a good practice to update your Ubuntu system packages: (if asked to restart Docker daemon select YES)
 
 ```bash
 sudo apt update && sudo apt upgrade
@@ -27,7 +27,7 @@ Change the downloaded script file to an executable file:
 ```bash
 chmod +x Miniconda3-latest-Linux-x86_64.sh
 ```{{exec}}
-Run the installation script:
+Run the installation script, accept the license terms, press enter to accept the default installation path and type yes when asked to initialize conda.
 
 ```bash
 ./Miniconda3-latest-Linux-x86_64.sh
