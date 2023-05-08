@@ -35,7 +35,11 @@ Run the installation script:
 ./Miniconda3-latest-Linux-x86_64.sh
 ```
 
-Follow the prompts during the installation process. When the installation is complete, close the terminal and reopen it to load the changes.
+Follow the prompts during the installation process. 
+When the installation is complete update the configuration file to apply the changes.
+```bash
+source ~/.bashrc
+```
 
 ### 3. Create the 'ptracer' Environment
 To create a new Conda environment named 'ptracer', run the following command:
