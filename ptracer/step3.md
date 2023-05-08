@@ -41,7 +41,7 @@ def callback(syscall):\n
     print(''.join(traceback.format_list(syscall.traceback)))\n
 
 with ptracer.context(callback):\n
-    open('/dev/null', 'wb')" > main.py"\n
+    open('/dev/null', 'wb')" > main.py
 ```{{exec}}
 
     
