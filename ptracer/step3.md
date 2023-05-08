@@ -39,7 +39,7 @@ def callback(syscall):
     print("Traceback: ")
     print("".join(traceback.format_list(syscall.traceback)))
 with ptracer.context(callback):
-    open("/dev/null", "wb")' > ptracer_example.py
+    open("/dev/null", "wb")' > PtracerTutorial.py
 ```{{exec}}
 
 We can now run the script
