@@ -1,4 +1,4 @@
-# Installing Conda, Creating a 'ptracer' Environment, and Activating it on Ubuntu (Optianal)
+# Installing Conda, Creating a 'ptracer' Environment, and Activating it on Ubuntu (Optional)
 
 Before installing ptracer we should create an environemt, this step is not mandatory but recommended
 Here there are step-by-step instructions on how to install Conda, create an environment named 'ptracer', and activate it on an Ubuntu system.
