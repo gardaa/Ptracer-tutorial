@@ -12,9 +12,9 @@ This README file provides step-by-step instructions on how to install Conda, cre
 
 Before installing Conda, it's a good practice to update your Ubuntu system packages:
 
-```bash
+'''bash
 sudo apt update && sudo apt upgrade
-´´´
+'''
 
 ### 2. Install Conda
 Download the latest version of Miniconda installer for Linux from the [official website](https://docs.conda.io/en/latest/miniconda.html).
