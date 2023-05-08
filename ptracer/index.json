@@ -5,6 +5,9 @@
         "intro": {
             "text": "intro.md"
         },
+        "intro": {
+            "text": "PtracerArchitecture.md"
+        },
         "steps": [
             {
                 "title": "Prerequisites",
