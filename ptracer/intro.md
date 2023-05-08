@@ -1,4 +1,4 @@
-# Ptracer Tutorial
+## Learning Outcomes
 This executable tutorial aims to show how you can use Ptracer as a library to trace all the system calls in your Python codebase, to be able to find bugs and failures easier, and overall improve the code quality.
 
 ## Prerequisites
