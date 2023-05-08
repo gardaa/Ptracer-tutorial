@@ -2,15 +2,15 @@
     "title": "Ptracer tutorial",
     "description": "How to use Ptracer to trace syscalls in Python",
     "details": {
-        "intro": [
+        "intro":
             {
                 "text": "intro.md"
             },
-            {
-                "text": "PtracerArchitecture.md"
-            }
-        ],
         "steps": [
+            {
+                "title": "Ptracer Architecture",
+                "text": "PtracerArchitecture.md"
+            },
             {
                 "title": "Prerequisites",
                 "text": "step1.md"
