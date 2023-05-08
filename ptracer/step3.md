@@ -29,7 +29,17 @@ The callback function is called each time a system call is made, and it prints t
 The open function is called once to open the /dev/null file in binary write mode.\
 We now write ths code in the file we created in the first step
 ```
-echo "import traceback\nimport ptracer\ndef callback(syscall):\n    print('{}({}) -> {}'.format(\n        syscall.name,\n        ', '.join(repr(arg.value) for arg in syscall.args),\n        syscall.result))\n    print('Traceback: ')\n    print(''.join(traceback.format_list(syscall.traceback)))\nwith ptracer.context(callback):\n    open('/dev/null', 'wb')" > PtracerTutorial.py
+echo 'import traceback
+import ptracer
+def callback(syscall):
+    print("{}({}) -> {}".format(
+        syscall.name,
+        ", ".join(repr(arg.value) for arg in syscall.args),
+        syscall.result))
+    print("Traceback: ")
+    print("".join(traceback.format_list(syscall.traceback)))
+with ptracer.context(callback):
+    open("/dev/null", "wb")' > ptracer_example.py
 ```{{exec}}
 
 We can now run the script
