@@ -27,7 +27,7 @@ with ptracer.context(callback):
 The context method of the ptracer module is used as a context manager to enable tracing of system calls made within the block of code.\
 The callback function is called each time a system call is made, and it prints the name of the call, its arguments, and its result.\
 The open function is called once to open the /dev/null file in binary write mode.\
-Ww now write ths code in the file we created in the first step
+We now write ths code in the file we created in the first step
 ```
 echo "import traceback\n
 import ptracer\n
@@ -41,7 +41,14 @@ def callback(syscall):\n
     print(''.join(traceback.format_list(syscall.traceback)))\n
 
 with ptracer.context(callback):\n
-    open('/dev/null', 'wb')" > main.py
+    open('/dev/null', 'wb')" > PtracerTutorial.py
 ```{{exec}}
+
+We can now run the script
+```
+python PtracerTutorial.py
+```{{exec}}
+
+
 
     
