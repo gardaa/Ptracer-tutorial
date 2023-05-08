@@ -62,6 +62,6 @@ with ptracer.context(callback, filter=flt):
 As before we can execute it with
 ```
 python PtracerFiltering.py
-```
+```{{exec}}
 
 We notice how, compared to the previous output, the result is much shorter and includes only *'openat'* calls.
