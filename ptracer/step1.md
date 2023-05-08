@@ -49,5 +49,6 @@ Activate the 'ptracer' environment by running:
 
 ```bash
 conda activate ptracer
-Now, you are inside the 'ptracer' environment. You can install packages and run your project inside this environment.
 ```{{exec}}
+
+Now, you are inside the 'ptracer' environment. You can install packages and run your project inside this environment.
