@@ -1,6 +1,6 @@
 # Installing Conda, Creating a 'ptracer' Environment, and Activating it on Ubuntu (Optional)
 
-Before installing ptracer we should create an environemt, this step is not mandatory but it is recommended. \
+Before installing ptracer we should create an environment, this step is not mandatory but it is recommended. \
 Here there are step-by-step instructions on how to install Conda, create an environment named 'ptracer', and activate it on an Ubuntu system.
 
 ## Prerequisites
@@ -32,7 +32,6 @@ Run the installation script, accept the license terms, press enter to accept the
 ```bash
 ./Miniconda3-latest-Linux-x86_64.sh
 ```{{exec}}
-Follow the prompts during the installation process. \
 When the installation is complete update the configuration file to apply the changes.
 ```bash
 source ~/.bashrc
