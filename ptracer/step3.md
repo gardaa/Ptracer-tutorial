@@ -47,6 +47,14 @@ We can now run the script
 python PtracerTutorial.py
 ```{{exec}}
 
+As you can see, the script manages to trace down 5 different system calls just by opening an arbitrary file. These are the following system calls, and if you look at the terminal to the right, you can also see the arguments inside the parethesis and the result after the arrow:
+- openat
+- fstat
+- ioctl
+- lseek
+- close
+Below the line that says traceback, you can also see which line the system call occured. In this case all of them occured in line 11, as we only executed a single open function in this example. As mentioned in the introduction, getting the exact location of the relevant system call helps debugging more efficiently. 
+
 
 
     
